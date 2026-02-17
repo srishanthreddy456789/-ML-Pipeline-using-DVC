@@ -2,3 +2,18 @@ data_ingestion:
   source_dir: data/raw
   output_dir: data/processed
   test_size: 0.2
+
+data_preprocessing:
+  text_column: text
+  target_column: target
+
+feature_engineering:
+  vectorizer: tfidf
+  max_features: 5000
+  ngram_range: [1, 2]
+
+model_building:
+  model_type: random_forest
+  n_estimators: 100
+  max_depth: null
+  random_state: 42
