@@ -1,0 +1,4 @@
+data_ingestion:
+  source_dir: data/raw
+  output_dir: data/processed
+  test_size: 0.2
