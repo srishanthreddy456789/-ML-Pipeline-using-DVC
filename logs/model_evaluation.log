@@ -1,0 +1,5 @@
+2026-02-17 16:48:27,329 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2026-02-17 16:48:27,519 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-02-17 16:48:28,104 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-02-17 16:48:28,308 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-02-17 16:48:54,334 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json

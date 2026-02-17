@@ -1,0 +1,13 @@
+2026-02-17 16:41:29,946 - model_building - DEBUG - Parameters retrieved from params.yaml
+2026-02-17 16:41:29,947 - model_building - ERROR - Failed to complete the model building process: 'model_building'
+2026-02-17 16:42:25,480 - model_building - DEBUG - Parameters retrieved from params.yaml
+2026-02-17 16:42:27,312 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 5001)
+2026-02-17 16:42:27,381 - model_building - DEBUG - Initializing RandomForest model with parameters: {'model_type': 'naive_bayes', 'alpha': 1.0, 'max_iter': 1000}
+2026-02-17 16:42:27,382 - model_building - ERROR - Error during model training: 'n_estimators'
+2026-02-17 16:42:27,383 - model_building - ERROR - Failed to complete the model building process: 'n_estimators'
+2026-02-17 16:43:28,568 - model_building - DEBUG - Parameters retrieved from params.yaml
+2026-02-17 16:43:30,374 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 5001)
+2026-02-17 16:43:30,439 - model_building - DEBUG - Initializing RandomForest model with parameters: {'model_type': 'random_forest', 'n_estimators': 100, 'max_depth': None, 'random_state': 42}
+2026-02-17 16:43:30,440 - model_building - DEBUG - Model training started with 4152 samples
+2026-02-17 16:43:36,478 - model_building - DEBUG - Model training completed
+2026-02-17 16:43:36,495 - model_building - DEBUG - Model saved to models/model.pkl
